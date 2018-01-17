@@ -101,6 +101,10 @@ body{
     margin-top:10%;
 }
 
+#store .col-sm-8{
+    margin-top: 10%;
+}
+
 #store  .buttonGroup{
 
      margin-top:10%;
@@ -125,12 +129,13 @@ body{
 
 #store .btn-default:focus,.btn-default:active{
     outline: 1px solid black !important;
-    box-shadow: none!important;;
+
+    box-shadow: none!important;
+
+    background-color: white;
+
 }
 
-#store .productRow{
-    margin-top:8%;
-}
 
 #store .productCaption{
     font-family: 'grotesk', sans-serif;
@@ -156,4 +161,16 @@ body{
     background: transparent;
 
 
+}
+
+#store .total{
+    text-align: center;
+
+    display: inline;
+}
+
+#store .totalNumber{
+    background-color: white;
+
+    display:inline;
 }
